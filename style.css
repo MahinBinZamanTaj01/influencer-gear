@@ -8,7 +8,7 @@
  }
  body{
     font-family: 'Poppins', sans-serif;
-    background-color: whitesmoke;
+   
     
  }
  nav{
@@ -46,6 +46,7 @@
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     grid-row: 26px;
+    
  }
  #top-blog{
      color:#6A1B4D ;
@@ -98,10 +99,12 @@ hr{
 .name{
     color: #242B2E;
     padding: 10px 03px 9px 2px;
-    font-size: 30px;
+    font-size: 23px;
+    
 }
+
 h4{
-    font-size: 17px;
+    font-size: 15px;
     font-family:monospace;
     padding-left: 02px;
 }
@@ -126,3 +129,96 @@ span{
     font-size: 13px;
     padding-left: 3px;
 }
+/*--------- Product Alignment--------- */
+#container{
+    background-color: rgba(248, 237, 237, 0.863);
+    padding-top: 30px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+   
+
+}
+#container div{
+    background-color: ivory;
+    align-items: center;
+    justify-content: center;
+    border-radius: 05px;
+    width: 100%;
+    
+}
+.container1{
+    
+    display: flex;
+    
+    padding-bottom: 35px;
+   
+}
+.container2{
+    display: flex;
+    padding-bottom: 35px;
+}
+.container3{
+    display: flex;
+    padding-bottom: 35px;
+}
+
+.product>img{
+    width: 304px;
+    height: 199px;
+    border-radius: 05px;
+}
+.products{
+    width: 100%;
+    margin-left: 75px;   
+}
+.container4{
+
+    color: #E03B8B ;
+    font-size: 17px;
+    align-content: right;
+    margin-top: 0;
+    text-align: right;
+    margin-right: 3px;
+}
+
+  /* ------ last-blog -------
+.last-blog div {
+    display:grid;
+    grid-template-columns: repeat( 2, 1fr) ;
+   width: 100%;
+    
+}
+.last-pic{
+    padding-top: 80px;
+    width: 400px;
+    height: 250px;
+    padding-left: 40px;
+}
+.last-text{
+    float: right;
+    color:#6A1B4D;
+    font-size: 25px;
+} */
+
+/* ----------- footer ------------- */
+footer {
+    width: 100% ;
+    margin-top: 70px;
+    padding-top: 50px;
+    
+    text-align: center;
+    padding: 3px;
+    background-color: #0D0D0D;
+    color: white;
+}
+
+/* Media Queries */
+
+/* Mobile-Devices */
+
+@media only screen and (max-width: 688px ) { 
+    .container{
+        width: 100%;
+    }
+   
