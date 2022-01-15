@@ -53,7 +53,6 @@
      padding-top: 30px;
      width: 50%;
     
-     
  }
 
 .button{
@@ -70,13 +69,15 @@
      color: white;
  }
  .top-blog-img{
-    width: 50px 300px;
-    height: 300px;
+    width:  250px;
+    height: 250px;
     float: right;
     margin-top: 0;
     display: inline-block;
     margin-right: 30px;
-    
-    
-
  }
+hr{
+    margin: 50px 115px 50px 115px;
+    width: 900px;
+    box-align: center;
+}
